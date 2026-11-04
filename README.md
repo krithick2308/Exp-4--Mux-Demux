@@ -54,7 +54,7 @@ module tb4;
         .D(D),
         .S(S),
         .Y0(Y0),
-        .Y1(Y1)
+        .Y1(Y1) 
     );
  
     initial begin
