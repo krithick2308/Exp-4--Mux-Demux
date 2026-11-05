@@ -15,6 +15,7 @@ Boolean Functions
 <img width="575" height="65" alt="image" src="https://github.com/user-attachments/assets/04c2d90c-0b6b-4b35-b603-d0e10e1e4f00" />
 
 ## Design / RTL Program
+```
 module mux2to1 (
     input  wire A,      // input line 0
     input  wire B,      // input line 1
@@ -36,6 +37,7 @@ endmodule
 
 ```
 ## **Testbench Program
+```
 module tb4;
     reg  A, B, S, D;
     wire Y;
@@ -81,6 +83,7 @@ module tb4;
         #10 $finish;
     end
 endmodule
+```
 
 
 
@@ -150,7 +153,10 @@ The design was compiled and simulated using Synopsys VCS, and the functionality 
 <img width="1845" height="988" alt="Screenshot 2026-11-03 092159" src="https://github.com/user-attachments/assets/f1ae663c-dc3b-4f44-8893-e6381954731b" />
 
 
-<img width="1832" height="980" alt="Screenshot 2026-11-03 092122" src="https://github.com/user-attachments/assets/b8980914-0698-4421-ad50-61209be6e90c" />
+<img width="1832" height="980" alt="Screenshot 2026-11-03 092122" src="https://github.com/user-attachments/assets/e0294174-1a93-478d-a1ea-23d45ce8df89" />
+
+
+
 
 
 ## Viva-Voce Questions
